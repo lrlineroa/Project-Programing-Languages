@@ -1,0 +1,6 @@
+function hola(){
+
+	int i=0;
+
+
+}

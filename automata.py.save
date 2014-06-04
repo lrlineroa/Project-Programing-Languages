@@ -1,0 +1,30 @@
+import os
+
+Y='Acept'
+
+def autoNameAgent():
+	G={}
+	alphaB='a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','x','y','z'
+	AlphaB='A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
+	digits=range(0,10)
+	G[0]=(AlphaB,1)
+	G[1]=(alphaB,1),('.',2)
+	G[2]=(digits,3)
+	G[3]=Y	
+	return G
+
+def evaluateAutomaton(chain,Automaton):
+	counter=0#counter that walks the chain given
+	cursor=0 #counter that walks the Automaton
+	while counter!=len(chain):
+		subTree=Automaton[cursor]
+		sizeT=len(subTree)
+		curSub=0
+		while sizeT!=0:
+			if sizeT==1
+				if chain[counter] in subTree[0]
+					cursor=subTree[1]
+				if chain[counter] in subTree[curSub][0]
+			
+		counter+=1
+		

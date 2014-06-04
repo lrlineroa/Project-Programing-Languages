@@ -1,0 +1,24 @@
+def parserDocument():
+	#coarse source file
+	src=open('source.txt','r')
+	#final file without Car Returns and
+	#with whitespace after of characters ';' and '{' or '}'
+	parser=open('parser.txt','a')
+	#FOR to eliminate the car Returns of the code
+	cursor=src.tell()
+	for line in src.readlines():
+		s=line
+		#for char in s:
+		
+		#if char==';'
+		dstWCR.write(s)
+		
+		
+    	
+		
+	print('Archivo depurado satisfactoriamente')
+	src.close()
+	dst.close()
+	finalFile.close()
+	
+parserDocument()
